@@ -25,7 +25,6 @@ public class AdminDepartment extends SuperDepartment {
 		//String deadline = getWorkDeadline();
 		System.out.println(this.getWorkDeadline());
 		
-		
 		//String holidayStatus = super.isTodayAHoliday();
 		System.out.println(super.isTodayAHoliday());
 	}
