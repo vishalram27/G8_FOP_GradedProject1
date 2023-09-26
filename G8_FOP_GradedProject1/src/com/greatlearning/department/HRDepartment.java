@@ -17,22 +17,12 @@ public class HRDepartment extends SuperDepartment{
 	}
 
 	//display function of hr
-
 	public void displayFunctions(){
 
-		//String dept = departmentName();
 		System.out.println("Welcome to "+this.departmentName());
-
-		//String activity = doActivity();
 		System.out.println(this.doActivity());
-
-		//String work = getTodaysWork();
 		System.out.println(this.getTodaysWork());
-
-		//String deadline = getWorkDeadline();
 		System.out.println(this.getWorkDeadline());
-
-		//String holidayStatus = super.isTodayAHoliday();
 		System.out.println(super.isTodayAHoliday());
 	}
 
