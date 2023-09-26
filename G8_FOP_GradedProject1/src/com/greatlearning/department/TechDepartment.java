@@ -19,11 +19,10 @@ public class TechDepartment extends SuperDepartment{
 	//display function of tech
 	public void displayFunctions(){
 
-		System.out.println("Welcome to "+this.departmentName());
-		System.out.println(this.getTodaysWork());
-		System.out.println(this.getWorkDeadline());
-		System.out.println(this.getTechStackInformation());
+		System.out.println("Welcome to "+ departmentName());
+		System.out.println(getTodaysWork());
+		System.out.println(getWorkDeadline());
+		System.out.println(getTechStackInformation());
 		System.out.println(super.isTodayAHoliday());
 	}
-
 }
