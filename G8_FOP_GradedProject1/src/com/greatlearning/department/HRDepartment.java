@@ -25,5 +25,4 @@ public class HRDepartment extends SuperDepartment{
 		System.out.println(getWorkDeadline());
 		System.out.println(super.isTodayAHoliday());
 	}
-
 }
