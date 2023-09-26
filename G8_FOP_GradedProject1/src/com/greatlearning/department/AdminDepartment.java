@@ -15,11 +15,10 @@ public class AdminDepartment extends SuperDepartment {
 	
 	//display function of admin
 	public void displayFunctions(){
-	
-		System.out.println("Welcome to "+this.departmentName());
-		System.out.println(this.getTodaysWork());
-		System.out.println(this.getWorkDeadline());
+		
+		System.out.println("Welcome to "+ departmentName());
+		System.out.println(getTodaysWork());
+		System.out.println(getWorkDeadline());
 		System.out.println(super.isTodayAHoliday());
-	}
-	
+	}	
 }
